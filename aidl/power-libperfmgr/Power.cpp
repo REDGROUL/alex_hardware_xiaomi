@@ -34,6 +34,10 @@
 #include "PowerHintSession.h"
 #include "PowerSessionManager.h"
 
+#ifndef TAP_TO_WAKE_NODE
+#define TAP_TO_WAKE_NODE "/sys/touchpanel/double_tap"
+#endif
+
 namespace aidl {
 namespace google {
 namespace hardware {
